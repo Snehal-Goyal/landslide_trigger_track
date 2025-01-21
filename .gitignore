@@ -1,0 +1,10 @@
+/venv
+data/ground_failure_polygons.dbf
+data/ground_failure_polygons.shp
+
+venv/
+data/
+Greece.ipynb
+datavenv/
+data/ground_failure_polygons.dbf
+data/ground_failure_polygons.shp
