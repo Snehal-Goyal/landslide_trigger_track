@@ -15,7 +15,7 @@ def main():
     print("Starting main...")
 
     # File paths
-    shapefile_path = "/home/snehal/Downloads/final/data/ground_failure_polygons.shp"
+    shapefile_path = "data/ground_failure_polygons.shp"
     dem_location = "./dem"
     inventory_name = "greece.tif"
 
@@ -80,12 +80,12 @@ def main():
     print(f"ML features saved to {features_excel} and {features_csv}")
     print("Done.")
 
-    earth_hokkaido_shapefile = read_shapefiles("/home/snehal/Downloads/final/data/japan/Earthquake_hokkaido_polygons.shp")
-    earth_iwata_shapefile = read_shapefiles("/home/snehal/Downloads/final/data/japan/Earthquake_iwata_polygons.shp")
-    earth_niigata_shapefile = read_shapefiles("/home/snehal/Downloads/final/data/japan/Earthquake_niigata_polygons.shp")
-    rain_kumamoto_shapefile = read_shapefiles("/home/snehal/Downloads/final/data/japan/Rainfall_kumamoto_polygons.shp")
-    rain_fukuoka_shapefile = read_shapefiles("/home/snehal/Downloads/final/data/japan/Rainfall_fukuoka_polygons.shp")
-    rain_saka_shapefile = read_shapefiles("/home/snehal/Downloads/final/data/japan/Rainfall_saka_polygons.shp")
+    earth_hokkaido_shapefile = read_shapefiles("/home/snehal/Downloads/final_backup/data/japan/Earthquake_hokkaido_polygons.shp")
+    earth_iwata_shapefile = read_shapefiles("/home/snehal/Downloads/final_backup/data/japan/Earthquake_iwata_polygons.shp")
+    earth_niigata_shapefile = read_shapefiles("/home/snehal/Downloads/final_backup/data/japan/Earthquake_niigata_polygons.shp")
+    rain_kumamoto_shapefile = read_shapefiles("/home/snehal/Downloads/final_backup/data/japan/Rainfall_kumamoto_polygons.shp")
+    rain_fukuoka_shapefile = read_shapefiles("/home/snehal/Downloads/final_backup/data/japan/Rainfall_fukuoka_polygons.shp")
+    rain_saka_shapefile = read_shapefiles("/home/snehal/Downloads/final_backup/data/japan/Rainfall_saka_polygons.shp")
 
     japan_inventory_name_list = ['hokkaido.tif', 'iwata.tif', 'niigata.tif', 'kumamoto.tif', 'fukuoka.tif', 'saka.tif']
 
